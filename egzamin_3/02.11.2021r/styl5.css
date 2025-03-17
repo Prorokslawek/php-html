@@ -1,0 +1,45 @@
+html{
+    font-family: Verdana;
+}
+
+.naglowek{
+    display: flex;
+}
+.srodek{
+    display: flex;
+}
+
+#miniatury{
+    background-color: sienna;
+    height: 100px;
+    width: 20%;
+}
+#tytulowy{
+    background-color: sienna;
+    color:orange;
+    height: 100px;
+    width: 80%;
+}
+#lewy{
+    background-color: burlywood;
+    height: 700px;
+    width: 70%;
+}
+#prawy{
+    background-color: burlywood;
+    height: 700px;
+    width: 30%;
+}
+footer{
+    background-color: sienna;
+    text-align: center;
+    color:orange;
+}
+img{
+    padding:5px;
+    margin:7px;
+    border: solid RosyBrown;
+}
+img:hover{
+    border: solid maroon;
+}

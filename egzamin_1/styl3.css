@@ -1,0 +1,46 @@
+html{
+  font-family: Verdana;
+
+}
+#banery{
+  display: flex;
+}
+#lewybaner{
+  background-color: #29434E;
+  color: white;
+  text-align: center;
+  width: 70%;
+  height:70px;
+}
+#prawybaner{
+  background-color: #29434E;
+  color: white;
+  text-align: center;
+  width: 30%;
+  height:70px;
+}
+#polecamy, #filmyfantastyczne{
+  background-color: #B0BEC5;
+  height: 320px;
+  overflow: scroll;
+}
+footer{
+  background-color: #29434E;
+  color: white;
+}
+#abc{
+  padding: 5px;
+  width: 226px;
+  height: 280px;
+}
+h3{
+  background-color: #546E7A;
+  color: white;
+  margin:0px;
+}
+#dwa{
+  display: flex;
+}
+#jeden{
+  display: flex;
+}

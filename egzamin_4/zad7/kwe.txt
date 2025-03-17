@@ -1,0 +1,14 @@
+kwe 1
+Select `nazwa`,podzespoly.opis,`cena` FROM `podzespoly` join 
+typy on typy.id=podzespoly.typy_id 
+where kategoria like "Procesor";
+kwe 2
+SELECT `id`,`nazwa` FROM `podzespoly` WHERE
+cena <400 and dostepnosc like 1;
+kwe 3
+SELECT `nazwa`,`kategoria` FROM `podzespoly`JOIN
+typy on typy.id=podzespoly.typy_id
+where kategoria like "procesor";
+kwe 4
+alter table typy 
+add opis text;

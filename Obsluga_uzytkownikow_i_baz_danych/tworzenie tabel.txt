@@ -1,0 +1,10 @@
+create table obywatelstwo (
+    id int AUTO_INCREMENT primary key,
+    obywatelstwo varchar(30));
+    
+create table studenci(
+    id int AUTO_INCREMENT primary key,
+    imie varchar(30),
+    nazwisko varchar(30),
+    obywatelstwo_id int, constraint foreign key (obywatelstwo_id) references obywatelstwo(id));
+    

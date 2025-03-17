@@ -1,0 +1,144 @@
+html{
+  font-family: Verdana;
+  scroll-behavior: smooth;
+  overflow: scroll;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#baner{
+  display: flex;
+  background-color: #ae6940;
+  width:100%;
+  height: 100px;
+   position: fixed;
+   z-index: 5;
+}
+
+#onas, #oferta, #galeria, #kontakt{
+  width: 15%;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+}
+
+
+#ofertajeden{
+  padding-top: 100px;
+}
+#ofertadwa{
+  padding-top: 100px;
+}
+#ofertatrzy{
+  padding-top: 100px;
+}
+#menu{
+    padding-top: 100px;
+}
+
+
+#display{
+  display: flex;
+}
+#displaydwa{
+  display: flex;
+  width:100%;
+}
+
+
+#zdjecie{
+  width: 100%;
+  height: 15%;
+  display: flex;
+}
+
+#menu{
+  background-color:orange;
+  color: white;
+  display: flex;
+}
+#ofertajeden,#ofertadwa,#ofertatrzy{
+  background-color: orange;
+  text-align: center;
+  width: 100%;
+}
+
+#galeriaa{
+  background-color: silver;
+  text-align: center;
+  padding-top:100px;
+}
+
+.zdj{
+  width: 100px;
+  height: 100px;
+}
+footer{
+  background-color: #ae6940;
+  color: white;
+}
+
+
+#right{
+  text-align: right;
+  width:50%;
+}
+#left{
+  text-align: left;
+  width:50%;
+}
+
+a, a:hover, a:focus,h3 #animacja
+
+{
+    text-decoration: none;
+    color: #aaf;
+    transition: 500ms linear 0s;
+    outline: 0 none;
+}
+
+a:hover, a:focus,h3 #animacja {
+    color: black;
+    text-shadow: -1px 1px 8px yellow, 1px -1px 8px orange;
+}
+
+@keyframes example {
+  from {color: red;}
+  to {color:black;}
+}
+#animacja {
+  background-color: orange;
+  animation-name: example;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+.zdjecia{
+  filter: grayscale(1) brightness(60%);
+  z-index: 1;
+  transition: 0.5s;
+  width: 300px;
+  height: 300px;
+}
+.zdjecia:hover{
+  filter: none;
+  transition: 0.5s;
+}
+.zoom{width: 35%;
+    height: 35%;
+}
+
+.hide{display: none;}
+
+#kafelki{
+  display: flex;
+}
+#kafelki p{
+  font-size: 120%;
+}
+#mail, #nrtel,#adres,#godziny{
+  width: 25%;
+  border: 2px solid black;
+  border-radius: 10px;
+}

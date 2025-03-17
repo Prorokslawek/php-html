@@ -1,0 +1,16 @@
+zad 1
+SELECT `nazwa`,`potoczna` from grzyby where jadalny like true
+
+zad2
+SELECT grzyby.nazwa,`potoczna`from grzyby
+join rodzina
+on rodzina.id=grzyby.rodzina_id
+join potrawy
+on potrawy.id=grzyby.potrawy_id
+where potrawy.nazwa like "sos"
+
+zad 3
+SELECT `nazwa_pliku`,`potoczna` from grzyby
+
+zad4
+alter table rodzina add opis varchar(10)

@@ -1,0 +1,36 @@
+html{
+  font-family: georgia;
+}
+#baner{
+  background-color: DodgerBlue;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+#dol{
+  display:flex;
+}
+#glowny{
+  background-color: lightBlue;
+  padding:100px;
+}
+
+#lewy{
+  background-color: dodgerBlue;
+  color: white;
+  width: 20%;
+  height: 220px;
+}
+#srodek, #prawy{
+  background-color: dodgerBlue;
+  color: white;
+  width: 40%;
+  height: 220px;
+  text-align: center;
+}
+a{
+  border: 1px dashed DimGray;
+  background-color: gold;
+  color: darkRed;
+  padding: 10px;
+}
